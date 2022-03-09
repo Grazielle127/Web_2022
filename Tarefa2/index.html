@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa 2</title>
+    <style>
+        body
+         { 
+            background-color: #e0e9ec;
+            font-size : 30px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #e0e9ec;
+         }
+        .container {
+             display: flex; 
+             flex-flow: column nowrap;
+             justify-content: space-between;   
+             height: 540px;
+             margin-bottom: 0px;
+             margin-top:0px;
+             margin-left: 200px;
+             margin-right: 200px;
+             background-color:lightcoral;
+             padding: 32px;             
+        
+
+       }
+        .flexivel{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: center;
+                          
+                    
+           
+
+        }
+       .caixa {
+           background-color: mediumturquoise;
+           text-align: center;
+           color:antiquewhite;
+           padding:10px;  
+         
+            
+        }
+        .imagem{ 
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 170PX;
+          height: 150px;
+          background-color:rgb(184, 192, 171);
+         
+
+        }
+        
+        .box-ART{
+          background-color:rgb(216, 67, 62);
+          text-align: center;
+          color:antiquewhite;
+          padding: 16px;  }  
+
+        aside{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 20%;
+          height: 350px;
+          padding: 16px;
+          background-color:lightseagreen;
+         
+        
+
+        }
+
+       article{
+         display: flex;
+         flex-direction: column;
+         justify-content: flex-end;     
+         width: 69%;
+         height: 350px;  
+        
+        }
+       
+      
+    </style>
+</head>
+<body>
+    <div class="container">
+    
+        <header class="caixa">
+           Header
+        </header>
+
+        <div class="flexivel">
+
+            <aside class="aside" >
+               <p>Aside</p> 
+            </aside>
+
+            <article class="box-ART ">
+                Article
+                <div class="flexivel">
+                    <div class ="imagem">Image</div>
+                    <div class="imagem">Image</div>
+                <div class="imagem">Image</div>
+                   
+                </div>
+            </article>             
+        </div>
+
+        <footer class="caixa">
+            Footer
+        </footer>             
+    </div>
+</body>
+</html>
