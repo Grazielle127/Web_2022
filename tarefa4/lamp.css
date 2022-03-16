@@ -1,0 +1,26 @@
+body{
+
+    background-color: black;
+}
+
+img {
+    width: 215px;
+    margin-top: 05%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    
+    }
+    
+.container{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 800px;
+    height: 600px;
+    margin-left: 17%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ff77b0;
+   
+}
